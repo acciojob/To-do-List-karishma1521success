@@ -5,7 +5,7 @@ let button = document.getElementById('addTodoBtn');
 let ol = document.getElementById('todoList');
 
 function addTodo(event){
-    event.preventDefault();
+    // event.preventDefault();
     let inputValue = document.getElementById('newTodoInput').value;
     if(inputValue != ""){
 		 //1.create li element
